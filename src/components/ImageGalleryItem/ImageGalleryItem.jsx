@@ -1,4 +1,4 @@
-import PropTypes, { string } from 'prop-types';
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import {Modal} from '../Modal/Modal';
 import { ImageGalleryList, Image } from './ImageGalleryItem.styled';

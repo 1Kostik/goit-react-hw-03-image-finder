@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import { ColorRing } from 'react-loader-spinner';
 import { LoaderWraper } from './Loader.styled';
 const Loader = () => {
