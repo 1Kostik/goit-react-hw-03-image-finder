@@ -16,10 +16,12 @@ export class ImageGallery extends Component {
     isShowButton: false,
   };
   componentDidUpdate(prevProps, prevState) {
-    const { query, page } = this.state;
+    const { query, page,findItems } = this.state;
     if (prevState.query !== query || prevState.page !== page) {
-      this.setState({ isLoading: true });
       this.getPhotos(query, page);
+      if (findItems.length > 12) {
+        this.setState({ isLoading: true });
+      };
     }
   }
   handlerSubmit = name => {
