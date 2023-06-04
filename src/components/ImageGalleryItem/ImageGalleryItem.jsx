@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import {Modal} from '../Modal/Modal';
+import { Modal } from '../Modal/Modal';
 import { ImageGalleryList, Image } from './ImageGalleryItem.styled';
 export class ImageGalleryItem extends Component {
   state = {
@@ -8,8 +8,7 @@ export class ImageGalleryItem extends Component {
   };
 
   toggleModal = () => {
-    this.setState(prevState => ({ showModal: !prevState.showModal})    
-    );
+    this.setState(prevState => ({ showModal: !prevState.showModal }));
   };
 
   render() {
@@ -36,5 +35,3 @@ ImageGalleryItem.propTypes = {
   largeImageURL: PropTypes.string,
   tags: PropTypes.string,
 };
-
-

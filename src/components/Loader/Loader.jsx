@@ -1,4 +1,3 @@
-
 import { ColorRing } from 'react-loader-spinner';
 import { LoaderWraper } from './Loader.styled';
 const Loader = () => {

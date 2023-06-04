@@ -38,6 +38,3 @@ Modal.propTypes = {
   largeImg: PropTypes.string,
   tags: PropTypes.string,
 };
-
-
-
