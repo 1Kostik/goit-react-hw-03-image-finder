@@ -40,6 +40,7 @@ export class Searchbar extends Component {
               </SearchFormButton>
             </IconContext.Provider>
             <SearchFormInput
+              value={this.state.name}
               className="SearchForm-input"
               type="text"
               autoComplete="off"
