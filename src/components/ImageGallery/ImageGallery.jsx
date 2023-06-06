@@ -25,7 +25,7 @@ export class ImageGallery extends Component {
     }
   }
   handlerSubmit = name => {
-    this.setState({ query: name, findItems: [], page: 1 });
+    this.setState({ query: name, findItems: [], page: 1, isShowButton: false });
   };
   handlerOnClick = () => {
     this.setState(prevState => ({ page: prevState.page + 1 }));
